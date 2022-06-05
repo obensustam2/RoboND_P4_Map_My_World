@@ -1,8 +1,7 @@
 # Map My World
 The aim of the project is to create a 2D occupancy grid and 3D octomap from a simulated environment using your own robot with the RTAB-Map package
 
-## Package
-* `my_robot`: Which includes robot model, rtab-map, move_base parameters, rviz configuration, teleoperation script. 
+`my_robot`: Package which includes robot model, rtab-map, move_base parameters, rviz configuration, teleoperation script. 
 
 ## Mapping
 First target is to create a 2D occupancy grid and 3D octomap
@@ -37,7 +36,7 @@ Second target is to load previously created map and start navigation
 * `move_base`: Which subscribes to **/map**, **/tf**, **/odom** topic and publishes **/cmd_vel** topic.
 
 <p align="center">
-  <img width="900" height="460" src="images/rosgraph_rtabmap_move_base.png">
+  <img width="900" height="400" src="images/rosgraph_rtabmap_move_base.png">
   <br>Rosgraph of the rtabmap & move_base localization
 </p>
 
